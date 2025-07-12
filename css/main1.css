@@ -1,0 +1,186 @@
+main{
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+    
+}
+
+/*Seção Apresentação*/
+.seção-apresentação{
+    background-image: url(../imagens/fundo-escuro.png);
+    width: 100%;
+    height: 670px;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    padding: 0 var(--padding-lateral-geral);
+
+}
+
+.div1-apresentação{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 55px;
+
+}
+.div1-apresentação h1{
+    font-size: 70px;
+    font-weight: normal;
+
+}
+
+.div-p-button-apresentação{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+
+
+}
+.div-p-button-apresentação p{
+    width: 95%;
+    font-family: var(--fonte-especial);
+    font-size: 20px;
+
+}
+.div-p-button-apresentação button{
+    background: var(--cor-azul);
+    color: white;
+    border: none;
+    width: 130px;
+    height: 40px;
+    cursor: pointer;
+    transition: 0.5s;
+
+}
+.div-p-button-apresentação button:hover{
+    background: var(--cor-marrom);
+
+}
+
+.div2-apresentação{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.div2-apresentação img{
+    width: 400px;
+    height: 500px;
+
+}
+
+/*Seção Novidades*/
+.seção-novidades{
+    background-image: url(../imagens/fundo-claro.png);
+    padding: 30px var(--padding-lateral-geral);
+    width: 100%;
+    height: 800px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+
+}
+
+.títulos-princ{
+    color: black;
+    font-weight: bold;
+    font-family: var(--fonte-especial);
+    font-size: 40px;
+    text-transform: capitalize;
+
+}
+
+.div-título-sec{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+
+}
+
+.títulos-sec{
+    background: var(--cor-marrom);
+    color: white;
+    font-weight: lighter;
+    width:300px;
+    height: auto;
+    padding: 5px 10px;
+    text-transform: capitalize;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.div-título-sec::before,
+.div-título-sec::after {
+    content: "";
+    background: black;
+    width: 100%;
+    height: 1px;
+
+}
+
+.div-articles-cards{
+    padding-top: 40px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px;
+
+}
+
+.article-card-individual{
+    background: white;
+    width: 270px;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    padding-bottom: 20px;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.188);
+    cursor: pointer;
+
+}
+
+.article-card-individual img{
+    position: relative;
+    top: 0;
+    width: 220px;
+    height: 400px;
+
+}
+
+.div-conjunto-coleção{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    padding-left: 25px;
+
+}
+.div-conjunto-coleção h3{
+    font-weight: lighter;
+    font-size: 20px;
+
+}
+.div-conjunto-coleção h4{
+    font-weight: normal;
+    font-style: italic;
+
+}
+
+#seta{
+    font-size: 25px;
+    width: auto;
+    height: auto;
+    transition: all 0.4s ease;
+}
+.article-card-individual:hover #seta{
+    transform: translateX(30px);
+
+}
