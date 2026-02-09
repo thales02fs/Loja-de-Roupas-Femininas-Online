@@ -1,2 +1,2 @@
 # Loja-de-Roupas-Femininas-Online
-Projeto do canal do Youtube "FRONT" de Loja de Roupas com HTML, CSS e JS
+Projeto Web de Loja de Roupas Femininas feito com HTML e CSS do canal do Youtube FRONT.
